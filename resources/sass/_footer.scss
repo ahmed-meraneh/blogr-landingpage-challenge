@@ -1,0 +1,57 @@
+.footer {
+    width: 100%;
+    padding: 4rem 10rem 6rem;
+    background: hsl(240, 10%, 16%);
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    border-top-right-radius: 6rem;
+
+    & &-box {
+        flex-basis: 20%;
+    }
+
+    & &-box h6 {
+        font-size: 1rem;
+        color: hsl(0, 0%, 100%);
+        margin-bottom: 2rem;
+        font-family: "Ubuntu", sans-serif;
+        font-weight: 500;
+    }
+
+    & &-box ul li {
+        list-style: none;
+        margin-bottom: 1rem;
+    }
+
+    & &-box ul li a {
+        text-decoration: none;
+        color: hsl(240, 2%, 79%);
+        font-size: 1rem;
+        transition: 0.5s;
+        cursor: pointer;
+        font-family: "Ubuntu", sans-serif;
+        font-weight: 400;
+    }
+
+    & &-box ul li a:hover {
+        text-decoration: underline;
+    }
+
+    & .attribution {
+        position: absolute;
+        bottom: 3rem;
+        left: 50%;
+        transform: translateX(-50%);
+        color: hsl(240, 2%, 79%);
+        font-family: "Ubuntu", sans-serif;
+        font-weight: 400;
+    }
+
+    & .attribution a {
+        text-decoration: none;
+        color: hsl(0, 0%, 100%);
+        font-family: "Ubuntu", sans-serif;
+        font-weight: 400;
+    }
+}

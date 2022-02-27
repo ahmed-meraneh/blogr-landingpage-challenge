@@ -1,0 +1,49 @@
+.features {
+    width: 100%;
+    position: relative;
+    padding: 15rem 10rem 15rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: hsl(0, 26%, 96%);
+    z-index: 2;
+
+    & &-leftcolumn {
+        flex-basis: 50%;
+        position: relative;
+    }
+
+    & &-leftcolumn .desktop-illustration {
+        width: 150%;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        left: -16rem;
+    }
+
+    & &-leftcolumn .mobile-illustration {
+        display: none;
+    }
+
+    & &-rightcolumn {
+        flex-basis: 40%;
+        position: relative;
+    }
+
+    & &-rightcolumn h5 {
+        font-size: 1.8rem;
+        color: $darkblue;
+        margin-bottom: 1.5rem;
+        font-family: "Overpass", sans-serif;
+        font-weight: 700;
+    }
+
+    & &-rightcolumn p {
+        font-size: 0.95rem;
+        color: $darkblue;
+        margin-bottom: 3rem;
+        font-family: "Overpass", sans-serif;
+        font-weight: 300;
+        line-height: 2.1rem;
+    }
+}
